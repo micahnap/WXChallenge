@@ -3,17 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0A74D44C14C0562599A6DD6 /* Pods_WXChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF129165D821F5E4FB58EE92 /* Pods_WXChallenge.framework */; };
+		A116C82B69CCD51A54361213 /* Pods_WXChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD5F696D07CA36B5965E8B6 /* Pods_WXChallengeTests.framework */; };
+		DB5D0AB12459AA6A00E9CC75 /* DogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D0AB02459AA6A00E9CC75 /* DogsViewController.swift */; };
+		DB94005C245987B600751175 /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94005B245987B600751175 /* DogData.swift */; };
+		DB94005E24598D2F00751175 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94005D24598D2F00751175 /* Client.swift */; };
+		DB9400602459915500751175 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94005F2459915500751175 /* Service.swift */; };
+		DB940062245991CD00751175 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB940061245991CD00751175 /* ViewModel.swift */; };
+		DBB9915A245A62DF0059974A /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB99159245A62DF0059974A /* ViewModelTests.swift */; };
+		DBB9915C245A6AC60059974A /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9915B245A6AC60059974A /* Dog.swift */; };
+		DBB9915E245A6B460059974A /* DogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9915D245A6B460059974A /* DogTests.swift */; };
 		DBBEB4B12459845D00BBFD7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBEB4B02459845D00BBFD7D /* AppDelegate.swift */; };
-		DBBEB4B32459845D00BBFD7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBEB4B22459845D00BBFD7D /* SceneDelegate.swift */; };
-		DBBEB4B52459845D00BBFD7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBEB4B42459845D00BBFD7D /* ViewController.swift */; };
-		DBBEB4B82459845D00BBFD7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBEB4B62459845D00BBFD7D /* Main.storyboard */; };
 		DBBEB4BA2459845F00BBFD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBEB4B92459845F00BBFD7D /* Assets.xcassets */; };
 		DBBEB4BD2459845F00BBFD7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBEB4BB2459845F00BBFD7D /* LaunchScreen.storyboard */; };
-		DBBEB4C82459845F00BBFD7D /* WXChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBEB4C72459845F00BBFD7D /* WXChallengeTests.swift */; };
+		DBBF6CC42459B2C5009F0261 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF6CC32459B2C5009F0261 /* Coordinator.swift */; };
+		DBBF6CC62459B5F3009F0261 /* DogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBF6CC52459B5F3009F0261 /* DogsViewController.xib */; };
+		DBBF6CC82459B74C009F0261 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF6CC72459B74C009F0261 /* DogCell.swift */; };
+		DBBF6CCA2459B79E009F0261 /* DogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBF6CC92459B79E009F0261 /* DogCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +37,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AD5F696D07CA36B5965E8B6 /* Pods_WXChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E430719CBC231668F7705D /* Pods-WXChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-WXChallengeTests/Pods-WXChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAE00C1AD02648119FECF3A2 /* Pods-WXChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXChallenge.release.xcconfig"; path = "Target Support Files/Pods-WXChallenge/Pods-WXChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		AE55D7AAFC0ED866BB8AD8A1 /* Pods-WXChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-WXChallengeTests/Pods-WXChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF129165D821F5E4FB58EE92 /* Pods_WXChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5D0AB02459AA6A00E9CC75 /* DogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DogsViewController.swift; path = WXChallenge/View/DogsViewController.swift; sourceTree = SOURCE_ROOT; };
+		DB94005B245987B600751175 /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
+		DB94005D24598D2F00751175 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		DB94005F2459915500751175 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DB940061245991CD00751175 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DBB99159245A62DF0059974A /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		DBB9915B245A6AC60059974A /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		DBB9915D245A6B460059974A /* DogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTests.swift; sourceTree = "<group>"; };
 		DBBEB4AD2459845D00BBFD7D /* WXChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBEB4B02459845D00BBFD7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBBEB4B22459845D00BBFD7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBBEB4B42459845D00BBFD7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBBEB4B72459845D00BBFD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBBEB4B92459845F00BBFD7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBBEB4BC2459845F00BBFD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBBEB4BE2459845F00BBFD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBBEB4C32459845F00BBFD7D /* WXChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBBEB4C72459845F00BBFD7D /* WXChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXChallengeTests.swift; sourceTree = "<group>"; };
 		DBBEB4C92459845F00BBFD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBF6CC32459B2C5009F0261 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DBBF6CC52459B5F3009F0261 /* DogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DogsViewController.xib; path = WXChallenge/View/DogsViewController.xib; sourceTree = SOURCE_ROOT; };
+		DBBF6CC72459B74C009F0261 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		DBBF6CC92459B79E009F0261 /* DogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogCell.xib; sourceTree = "<group>"; };
+		DBC083E5245A822100C8BC51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC62145D1C93D288C62BEF1E /* Pods-WXChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXChallenge.debug.xcconfig"; path = "Target Support Files/Pods-WXChallenge/Pods-WXChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A74D44C14C0562599A6DD6 /* Pods_WXChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +78,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A116C82B69CCD51A54361213 /* Pods_WXChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5A82C1F6342B919544C3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF129165D821F5E4FB58EE92 /* Pods_WXChallenge.framework */,
+				5AD5F696D07CA36B5965E8B6 /* Pods_WXChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3148B65471BAD0D1810501F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC62145D1C93D288C62BEF1E /* Pods-WXChallenge.debug.xcconfig */,
+				AAE00C1AD02648119FECF3A2 /* Pods-WXChallenge.release.xcconfig */,
+				AE55D7AAFC0ED866BB8AD8A1 /* Pods-WXChallengeTests.debug.xcconfig */,
+				91E430719CBC231668F7705D /* Pods-WXChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBB9915F245A6B990059974A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBBF6CC72459B74C009F0261 /* DogCell.swift */,
+				DBBF6CC92459B79E009F0261 /* DogCell.xib */,
+				DBBEB4BB2459845F00BBFD7D /* LaunchScreen.storyboard */,
+				DBBF6CC52459B5F3009F0261 /* DogsViewController.xib */,
+				DB5D0AB02459AA6A00E9CC75 /* DogsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBB99160245A6B9F0059974A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DB94005F2459915500751175 /* Service.swift */,
+				DB94005D24598D2F00751175 /* Client.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DBB99161245A6BAA0059974A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DB940061245991CD00751175 /* ViewModel.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DBB99162245A6BB10059974A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9915B245A6AC60059974A /* Dog.swift */,
+				DB94005B245987B600751175 /* DogData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DBB99163245A6BB70059974A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DBBF6CC32459B2C5009F0261 /* Coordinator.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		DBBEB4A42459845D00BBFD7D = {
 			isa = PBXGroup;
 			children = (
+				DBC083E5245A822100C8BC51 /* README.md */,
 				DBBEB4AF2459845D00BBFD7D /* WXChallenge */,
 				DBBEB4C62459845F00BBFD7D /* WXChallengeTests */,
 				DBBEB4AE2459845D00BBFD7D /* Products */,
+				C3148B65471BAD0D1810501F /* Pods */,
+				3A5A82C1F6342B919544C3A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +175,13 @@
 		DBBEB4AF2459845D00BBFD7D /* WXChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				DBB9915F245A6B990059974A /* View */,
+				DBB99160245A6B9F0059974A /* Interactor */,
+				DBB99161245A6BAA0059974A /* Presenter */,
+				DBB99162245A6BB10059974A /* Entity */,
+				DBB99163245A6BB70059974A /* Router */,
 				DBBEB4B02459845D00BBFD7D /* AppDelegate.swift */,
-				DBBEB4B22459845D00BBFD7D /* SceneDelegate.swift */,
-				DBBEB4B42459845D00BBFD7D /* ViewController.swift */,
-				DBBEB4B62459845D00BBFD7D /* Main.storyboard */,
 				DBBEB4B92459845F00BBFD7D /* Assets.xcassets */,
-				DBBEB4BB2459845F00BBFD7D /* LaunchScreen.storyboard */,
 				DBBEB4BE2459845F00BBFD7D /* Info.plist */,
 			);
 			path = WXChallenge;
@@ -93,8 +190,9 @@
 		DBBEB4C62459845F00BBFD7D /* WXChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBBEB4C72459845F00BBFD7D /* WXChallengeTests.swift */,
 				DBBEB4C92459845F00BBFD7D /* Info.plist */,
+				DBB99159245A62DF0059974A /* ViewModelTests.swift */,
+				DBB9915D245A6B460059974A /* DogTests.swift */,
 			);
 			path = WXChallengeTests;
 			sourceTree = "<group>";
@@ -106,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBBEB4CC2459845F00BBFD7D /* Build configuration list for PBXNativeTarget "WXChallenge" */;
 			buildPhases = (
+				0E4CF5C1F72EA9F87ED01B7D /* [CP] Check Pods Manifest.lock */,
 				DBBEB4A92459845D00BBFD7D /* Sources */,
 				DBBEB4AA2459845D00BBFD7D /* Frameworks */,
 				DBBEB4AB2459845D00BBFD7D /* Resources */,
+				9BAA2B52AD975590BD731E18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBBEB4CF2459845F00BBFD7D /* Build configuration list for PBXNativeTarget "WXChallengeTests" */;
 			buildPhases = (
+				EFFC677515FA8C1B31D69D5B /* [CP] Check Pods Manifest.lock */,
 				DBBEB4BF2459845F00BBFD7D /* Sources */,
 				DBBEB4C02459845F00BBFD7D /* Frameworks */,
 				DBBEB4C12459845F00BBFD7D /* Resources */,
@@ -182,7 +283,8 @@
 			files = (
 				DBBEB4BD2459845F00BBFD7D /* LaunchScreen.storyboard in Resources */,
 				DBBEB4BA2459845F00BBFD7D /* Assets.xcassets in Resources */,
-				DBBEB4B82459845D00BBFD7D /* Main.storyboard in Resources */,
+				DBBF6CCA2459B79E009F0261 /* DogCell.xib in Resources */,
+				DBBF6CC62459B5F3009F0261 /* DogsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +297,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E4CF5C1F72EA9F87ED01B7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BAA2B52AD975590BD731E18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WXChallenge/Pods-WXChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WXChallenge/Pods-WXChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WXChallenge/Pods-WXChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFFC677515FA8C1B31D69D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBBEB4A92459845D00BBFD7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBEB4B52459845D00BBFD7D /* ViewController.swift in Sources */,
 				DBBEB4B12459845D00BBFD7D /* AppDelegate.swift in Sources */,
-				DBBEB4B32459845D00BBFD7D /* SceneDelegate.swift in Sources */,
+				DB94005C245987B600751175 /* DogData.swift in Sources */,
+				DB94005E24598D2F00751175 /* Client.swift in Sources */,
+				DB9400602459915500751175 /* Service.swift in Sources */,
+				DB940062245991CD00751175 /* ViewModel.swift in Sources */,
+				DBB9915C245A6AC60059974A /* Dog.swift in Sources */,
+				DB5D0AB12459AA6A00E9CC75 /* DogsViewController.swift in Sources */,
+				DBBF6CC82459B74C009F0261 /* DogCell.swift in Sources */,
+				DBBF6CC42459B2C5009F0261 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBEB4C82459845F00BBFD7D /* WXChallengeTests.swift in Sources */,
+				DBB9915A245A62DF0059974A /* ViewModelTests.swift in Sources */,
+				DBB9915E245A6B460059974A /* DogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +398,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DBBEB4B62459845D00BBFD7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBBEB4B72459845D00BBFD7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DBBEB4BB2459845F00BBFD7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,10 +525,12 @@
 		};
 		DBBEB4CD2459845F00BBFD7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC62145D1C93D288C62BEF1E /* Pods-WXChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WXChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +544,12 @@
 		};
 		DBBEB4CE2459845F00BBFD7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE00C1AD02648119FECF3A2 /* Pods-WXChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WXChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +563,7 @@
 		};
 		DBBEB4D02459845F00BBFD7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE55D7AAFC0ED866BB8AD8A1 /* Pods-WXChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +585,7 @@
 		};
 		DBBEB4D12459845F00BBFD7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E430719CBC231668F7705D /* Pods-WXChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
